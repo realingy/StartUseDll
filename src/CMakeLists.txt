@@ -12,4 +12,3 @@ aux_source_directory(. DIR_SRCS)
 add_subdirectory(StartUseDll)
 add_subdirectory(Dll1)
 
-set(INCLUDE_DLL1 ${CMAKE_CURRENT_SOURCE_DIR}/Dll1)

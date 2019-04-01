@@ -5,5 +5,4 @@
 set(SOURCE_FILES Dll1.cpp Dll1.h)
 
 # 生成链接库
-# add_library (MathMultiply ${DIR_LIB_SRCS})
 add_library (MathMultiply ${SOURCE_FILES})
