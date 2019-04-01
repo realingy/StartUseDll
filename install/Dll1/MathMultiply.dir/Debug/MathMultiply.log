@@ -1,4 +1,0 @@
-﻿  Building Custom Rule D:/dir_git/StartUseDll/src/Dll1/CMakeLists.txt
-  CMake does not need to re-run because D:/dir_git/StartUseDll/install/Dll1/CMakeFiles/generate.stamp is up-to-date.
-  Dll1.cpp
-  MathMultiply.vcxproj -> D:\dir_git\StartUseDll\install\Dll1\Debug\MathMultiply.lib
