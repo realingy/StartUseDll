@@ -1,8 +1,8 @@
 # 指定生成目标 
-add_executable(StartUseDll main.cpp)
+ADD_EXECUTABLE(StartUseDll main.cpp)
 
 # 添加头文件包含目录
-include_directories(${PROJECT_SOURCE_DIR}/Dll1)
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/Dll1)
 
 # 添加链接库
-target_link_libraries(StartUseDll MathMultiply)
+TARGET_LINK_LIBRARIES(StartUseDll MathMultiply)

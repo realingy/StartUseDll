@@ -1,14 +1,13 @@
 # CMake 最低版本号要求
-cmake_minimum_required (VERSION 2.8)
+CMAKE_MINIMUM_REQUIRED (VERSION 3.6)
 
 # 项目信息
-project (StartUseDll)
+PROJECT (StartUseDll)
 
 # 查找当前目录下的所有源文件
 # 并将名称保存到 DIR_SRCS 变量
-aux_source_directory(. DIR_SRCS)
+AUX_SOURCE_DIRECTORY(. DIR_SRCS)
 
 # 添加子目录
-add_subdirectory(StartUseDll)
-add_subdirectory(Dll1)
-
+ADD_SUBDIRECTORY(StartUseDll)
+ADD_SUBDIRECTORY(Dll1)

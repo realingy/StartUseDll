@@ -2,7 +2,7 @@
 # 并将名称保存到 DIR_LIB_SRCS 变量
 # aux_source_directory(. DIR_LIB_SRCS)
 
-set(SOURCE_FILES Dll1.cpp Dll1.h)
+SET(SOURCE_FILES Dll1.cpp Dll1.h)
 
 # 生成链接库
-add_library (MathMultiply ${SOURCE_FILES})
+ADD_LIBRARY (MathMultiply ${SOURCE_FILES})
