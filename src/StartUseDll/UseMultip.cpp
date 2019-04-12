@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "Dll1.h"
+#include "UseMultip.h"
 
-int main() {
+int UseMultip() {
 	int x, y;
 	std::cin >> x;
 	std::cin >> y;

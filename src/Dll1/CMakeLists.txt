@@ -5,4 +5,5 @@
 SET(SOURCE_FILES Dll1.cpp Dll1.h)
 
 # 生成链接库
+# ADD_LIBRARY (MathMultiply SHARED ${SOURCE_FILES})
 ADD_LIBRARY (MathMultiply ${SOURCE_FILES})
